@@ -15,6 +15,7 @@ body {
   --primary-color: #005a00;
   --secondary-color: #000000;
   --tertiary-color: #686868;
+  --highlight-color: #00b400;
 }
 
 .section-title {
@@ -134,11 +135,11 @@ header nav ul li a:hover {
 
 #work img {
   border: 10px solid var(--primary-color);
-  opacity: .5;
+
 }
 
 #work a img:hover {
-  opacity: 1;
+  border: 10px solid var(--highlight-color);
 }
 /* WORK STYLES ^^*/
 
