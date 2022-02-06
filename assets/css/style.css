@@ -1,0 +1,134 @@
+/* GLOBAL STYLES vv*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  color: var(--secondary-color);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  background-color: var(--tertiary-color);
+}
+
+:root {
+  --primary-color: #005a00;
+  --secondary-color: #000000;
+  --tertiary-color: #686868;
+}
+
+.section-title {
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  text-align: center;
+  margin: 0 20px 5px;
+}
+
+.flex-row{
+display: flex;
+}
+
+h2 {
+  font-size: 1.6vw;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+h3 {
+  font-size: 1.3vw;
+  text-align: center;
+  margin: 5px;
+}
+
+p {
+  font-size: 1.1vw;
+  text-align: center;
+  margin: 10px;
+  }
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border:rgba(0, 0, 0, 0.5);
+}
+/* GLOBAL STYLES ^^*/
+
+
+/* HEADER STYLES vv*/
+header {
+  padding: 20px 20px;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid var(--secondary-color);
+}
+
+header h1 {
+  font-weight: bolder;
+  margin: 0;
+  font-size: 2vw;
+  color: var(--primary-color);
+}
+
+header a {
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 1.8vw;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  border-radius: 20px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+/* HEADER STYLES ^^*/
+
+/* BIO STYLES vv*/
+.bio article {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border:rgba(0, 0, 0, 0.5);
+}
+/* BIO STYLES ^^*/
+
+/* WORK STYLES vv*/
+img a:hover {
+  border: 5px var(--primary-color);
+}
+/* WORK STYLES ^^*/
+
+
+
+
