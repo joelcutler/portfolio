@@ -112,20 +112,33 @@ header nav ul li a:hover {
 /* HEADER STYLES ^^*/
 
 /* BIO STYLES vv*/
-.bio article {
+/* #bio article {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: space-around;
   margin: 10px;
   padding: 10px;
   border:rgba(0, 0, 0, 0.5);
-}
+} */
 /* BIO STYLES ^^*/
 
 /* WORK STYLES vv*/
-img a:hover {
-  border: 5px var(--primary-color);
+/* #work article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  border:rgba(0, 0, 0, 0.5);
+} */
+
+#work img {
+  border: 10px solid var(--primary-color);
+  opacity: .5;
+}
+
+#work a img:hover {
+  opacity: 1;
 }
 /* WORK STYLES ^^*/
 
