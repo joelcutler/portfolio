@@ -20,7 +20,7 @@ body {
 
 .section-title {
   color: var(--primary-color);
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
   text-align: center;
   margin: 0 20px 5px;
 }
@@ -69,7 +69,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-bottom: 3px solid var(--secondary-color);
+  border-bottom: 5px solid var(--secondary-color);
 }
 
 header h1 {
@@ -143,6 +143,21 @@ header nav ul li a:hover {
 }
 /* WORK STYLES ^^*/
 
+/* CONTACT STYLES vv */
+#contact address {
+display: flex;
+justify-content: space-around;
+margin: 5px;
+border: 5px;
+}
+#contact a {
+  color: var(--primary-color);
+}
+
+#contact a:hover{
+  color: var(--highlight-color);
+}
+/* CONTACT STYLES ^^ */
 
 
 
