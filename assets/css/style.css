@@ -19,6 +19,12 @@ body {
     --highlight-color: #00b400;
 }
 
+img {
+    border-radius: 15px;
+    box-shadow: inset, 0 0 5px rgba(0, 0, 0, 0.5);
+    ;
+}
+
 .section-title {
     color: var(--primary-color);
     border-bottom: 2px solid var(--secondary-color);
@@ -150,6 +156,7 @@ header nav ul li a:hover {
 
 #work img {
     border: 10px solid var(--primary-color);
+    border-radius: 15px;
 }
 
 #work a img:hover {
@@ -167,6 +174,11 @@ header nav ul li a:hover {
 
 
 /* CONTACT STYLES vv */
+
+#contact p {
+    margin-top: 2.5rem;
+    font-size: 18px;
+}
 
 #contact address {
     display: flex;
