@@ -92,7 +92,6 @@ header a {
   font-weight: bold;
   text-decoration: none;
   color: var(--primary-color);
-  transition: color 1s;
 }
 
 header nav {
@@ -115,7 +114,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  transition: color 1s;
+  transition: background-color 1s;
   background: var(--primary-color);
   color: var(--secondary-color);
   border-radius: 20px;
@@ -151,6 +150,7 @@ header nav ul li a:hover {
 #work img {
   border: 10px solid var(--primary-color);
   border-radius: 15px;
+  transition: border 1s linear;
 }
 
 #work a img:hover {
